@@ -1,0 +1,101 @@
+body {
+  background-color: antiquewhite;
+  font-family: 'El Messiri', sans-serif;
+  color: darkslategray;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+h1, h2, h3 {
+  color:rgb(40, 33, 33);
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 10px;
+}
+
+.link {
+  width: 200px;
+  background-color: #a6d1a6;
+  border-radius: 8px;
+  padding: 15px 20px;
+  text-align: center;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+  color:rgb(40, 33, 33)
+}
+
+.link:hover {
+  color: blueviolet;
+}
+
+#ppic {
+  border-radius: 50%;
+  width: 200px;
+}
+
+#top {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  background: darkgrey;
+  border: 9px black;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px gray;
+}
+
+#bottom {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  background: darkgrey;
+  border:5px black;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px gray;
+}
+
+#linkedin {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .link {
+    background-color: pink;
+  }
+  #top {
+    width: 60%;
+    height: 425px;
+    padding: 20px;
+  }
+  h1 {
+    font-size: medium;
+  }
+  #bottom {
+    width: 60%;
+    padding: 20px;
+  }
+}
